@@ -2,9 +2,9 @@ name: Java CI
 
 on:
   push:
-    branches: [ master, testing, junit4 ]
+    branches: [ master, testing, junit4, junit4-platform ]
   pull_request:
-    branches: [ master, testing, junit4 ]
+    branches: [ master, testing, junit4, junit4-platform ]
 
 jobs:
   build:
